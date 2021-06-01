@@ -22,7 +22,7 @@ namespace RPG.Combat
                 GetComponent<Mover>().Cancel();
             }
         }
-
+         
         private bool GetIsInRange()
         {
             return Vector3.Distance(transform.position, target.position) < weaponRange;
