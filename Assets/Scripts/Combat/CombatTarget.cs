@@ -16,7 +16,9 @@ namespace RPG.Combat
         }
         Color RandomColor()
         {
-            return new Color(Random.Range(0.0f, 1.0F), Random.Range(0.0f, 1.0F), Random.Range(0.0f, 1.0F)); 
+            return new Color(Random.Range(0.0f, 1.0F),
+                             Random.Range(0.0f, 1.0F),
+                             Random.Range(0.0f, 1.0F)); 
         }
     
 
