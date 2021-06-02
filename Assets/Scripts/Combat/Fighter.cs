@@ -36,8 +36,6 @@ namespace RPG.Combat
         {
             target = null;
         }
-
- 
-    
+        
     }
 }
